@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+    var gamePlay = {
+        newTurn: function() {
+            console.log("first this", this);
+            var anss = function() {
+                console.log("second", this);
+            }
+            anss();
+            console.log("third", this);
+        }
+    }
+
+    gamePlay.newTurn();
+
+</script>
+
+</body>
+</html>
