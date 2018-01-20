@@ -29,6 +29,7 @@ h1 {
 
 #result{
     height: 150px;
+    
     font-size: 24px;
     color: rgb(192, 35, 231);
     background-color: rgb(59, 55, 109);
@@ -76,3 +77,14 @@ h1 {
     font-size: 40px;
 }
 
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+#start.loading {
+    height:     200px;
+    background: rgba( 255, 255, 255, 0 )
+                url('../images/ajax-loader.gif') 
+                50% 50% 
+                no-repeat;
+    /* overflow: hidden;    */
+}
